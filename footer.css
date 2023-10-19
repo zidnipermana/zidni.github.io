@@ -1,0 +1,132 @@
+h1{ font-family: Impact;}
+.card {
+    margin: 10px;
+}
+
+.navbar-brand {
+  margin-left: 5px;
+}
+
+.card:hover{
+  border:3px solid black;
+}
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 1px;
+
+}
+
+.logoS {
+  width: 30px;
+  height: auto;
+  border-radius: 30%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.logoS:hover {
+  transform: scale(1.1);
+}
+
+.form-group {
+  margin: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 16px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.form-horizontal {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.form-horizontal label, .form-horizontal input {
+  margin: 5px;
+}
+
+.ket {
+  margin-left: 50%;
+  margin-bottom: 10px;
+}
+
+.NK {
+  width: 20%;
+}
+
+.NM {
+  width: 35%;
+}
